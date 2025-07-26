@@ -19,8 +19,6 @@ a {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 .first-logo {
@@ -51,8 +49,7 @@ ul {
   color: #404bbf;
 }
 
-.email,
-.phone {
+.email {
   font-weight: 400;
   font-size: 16px;
   color: #434455;
@@ -61,9 +58,7 @@ ul {
 }
 
 .email:hover,
-.email:focus,
-.phone:hover,
-.phone:focus {
+.email:focus {
   color: #404bbf;
 }
 
@@ -71,23 +66,17 @@ ul {
   font-style: normal;
 }
 
-.nav-item {
-  background-color: #ffffff; /* Для пункта списка */
-}
-
 .header-section {
   background-color: #2e2f42;
-  padding: 100px 0;
-  text-align: center;
 }
 
 .main-header {
   font-weight: 700;
   color: #ffffff;
   font-size: 56px;
+  text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 40px;
 }
 
 .order-button {
@@ -98,9 +87,6 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  padding: 16px 32px;
-  border: none;
-  border-radius: 4px;
 }
 
 .order-button:hover,
@@ -108,20 +94,15 @@ ul {
   background-color: #404bbf;
 }
 
-.features-section {
-  padding: 120px 0;
-}
-
-.feature-name {
+.characteristics {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
-.feature-description {
+.definition {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -130,12 +111,9 @@ ul {
 
 .team-section {
   background-color: var(--cloud);
-  padding: 120px 0;
-  text-align: center;
 }
 
-.team-title,
-.portfolio-title {
+.portfolio {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -143,41 +121,17 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
-.team-name {
+.projects {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
 }
 
-.team-role {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.portfolio-section {
-  padding: 120px 0;
-}
-
-.portfolio-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-
-.portfolio-type {
+.form {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,7 +141,6 @@ ul {
 .footer {
   background-color: #2e2f42;
   color: var(--cloud);
-  padding: 100px 0;
 }
 
 .last-logo {
@@ -198,8 +151,6 @@ ul {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .dark-studio {
@@ -211,5 +162,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
-  max-width: 264px;
+}
+
+.list {
+  background-color: #ffffff;
 }
