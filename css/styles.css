@@ -1,3 +1,7 @@
+:root {
+  --cloud: #f4f4fd;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -7,15 +11,18 @@ body {
 button {
   cursor: pointer;
 }
+
 a {
   text-decoration: none;
   color: #2e2f42;
   font-style: normal;
 }
+
 ul {
   list-style-type: none;
 }
 
+/* Логотип */
 .first-logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -31,15 +38,21 @@ ul {
   font-weight: 700;
   letter-spacing: 0.03em;
 }
+
+/* Меню */
 .menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu:focus .menu:hover {
+
+.menu:hover,
+.menu:focus {
   color: #404bbf;
 }
+
+/* Контакти */
 .email {
   font-weight: 400;
   font-size: 16px;
@@ -56,6 +69,12 @@ ul {
 .address {
   font-style: normal;
 }
+
+/* Секція герою */
+.header-section {
+  background-color: #2e2f42;
+}
+
 .main-header {
   font-weight: 700;
   color: #ffffff;
@@ -65,9 +84,6 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.header-section {
-  background-color: #2e2f42;
-}
 .order-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -77,9 +93,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.header-two {
-  color: #ffffff;
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
+
+/* Секція "Наші переваги" */
 .characteristics {
   font-weight: 500;
   font-size: 20px;
@@ -87,6 +107,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .definition {
   font-weight: 400;
   font-size: 16px;
@@ -94,6 +115,12 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Секція "Наша команда" */
+.team-section {
+  background-color: var(--cloud);
+}
+
 .our-team {
   font-weight: 700;
   font-size: 36px;
@@ -103,13 +130,6 @@ ul {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.list {
-  background-color: #ffffff;
-}
-
-.team-section {
-  background-color: #f4f4fd;
-}
 
 .members {
   font-weight: 500;
@@ -118,6 +138,7 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .profession {
   font-weight: 400;
   font-size: 16px;
@@ -125,6 +146,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
+/* Секція портфоліо */
 .portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -150,10 +172,13 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* Футер */
 .footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
+  color: var(--cloud);
 }
+
 .last-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -163,8 +188,9 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
+
 .dark-studio {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 
 .last {
@@ -172,15 +198,9 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--cloud);
 }
 
-.menu:hover {
-  color: #404bbf;
-}
-.menu:focus {
-  color: #404bbf;
-}
-.order-button:hover,
-.order-button:focus {
-  background-color: #404bbf;
+.list {
+  background-color: #ffffff;
 }
