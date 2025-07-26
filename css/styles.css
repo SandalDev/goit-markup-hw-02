@@ -71,6 +71,10 @@ ul {
   font-style: normal;
 }
 
+.nav-item {
+  background-color: #ffffff; /* Для пункта списка */
+}
+
 .header-section {
   background-color: #2e2f42;
   padding: 100px 0;
