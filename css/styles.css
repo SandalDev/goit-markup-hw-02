@@ -15,12 +15,14 @@ button {
 a {
   text-decoration: none;
   color: #2e2f42;
+  font-style: normal;
 }
 
 ul {
   list-style-type: none;
 }
 
+/* Логотип */
 .first-logo {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -37,6 +39,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
+/* Меню */
 .menu {
   font-weight: 500;
   font-size: 16px;
@@ -49,6 +52,7 @@ ul {
   color: #404bbf;
 }
 
+/* Контакти */
 .email {
   font-weight: 400;
   font-size: 16px;
@@ -66,6 +70,7 @@ ul {
   font-style: normal;
 }
 
+/* Секція герою */
 .header-section {
   background-color: #2e2f42;
 }
@@ -73,9 +78,9 @@ ul {
 .main-header {
   font-weight: 700;
   color: #ffffff;
+  line-height: 1.07;
   font-size: 56px;
   text-align: center;
-  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 
@@ -94,6 +99,7 @@ ul {
   background-color: #404bbf;
 }
 
+/* Секція "Наші переваги" */
 .characteristics {
   font-weight: 500;
   font-size: 20px;
@@ -103,16 +109,19 @@ ul {
 }
 
 .definition {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
+/* Секція "Наша команда" */
 .team-section {
   background-color: var(--cloud);
 }
 
+/* Секція портфоліо */
 .portfolio {
   font-weight: 700;
   font-size: 36px;
@@ -132,12 +141,14 @@ ul {
 }
 
 .form {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
+/* Футер */
 .footer {
   background-color: #2e2f42;
   color: var(--cloud);
@@ -158,6 +169,7 @@ ul {
 }
 
 .last {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
